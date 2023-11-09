@@ -8,7 +8,6 @@
 import UIKit
 import MapKit
 
-
 class Restaurant: NSObject, MKAnnotation {
     
     //Part 4 #5
@@ -23,17 +22,12 @@ class Restaurant: NSObject, MKAnnotation {
                  self.coordinate = coordinate
                  
                  super.init()
-                 
              }
     
     //Part 5
-    
     var subtitle: String?
     {
         //Problem Set #3 Code Switch
-        return restaurantType
+        return restaurantTitle
     }
-    
-    
-
 }

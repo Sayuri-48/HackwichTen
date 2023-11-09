@@ -19,8 +19,6 @@ class ViewController: UIViewController {
     
     let regionRadius = 10000
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -34,7 +32,6 @@ class ViewController: UIViewController {
                        -158.080098))
                 
         mapView.addAnnotation(restaurantOne)
-        
     }
     
     //Part 3
@@ -45,9 +42,6 @@ class ViewController: UIViewController {
                latitudinalMeters: CLLocationDistance(regionRadius),
                longitudinalMeters: CLLocationDistance(regionRadius))
                mapView.setRegion(coordinateRegion, animated: true)
-
            }
-    
-    
 }
 
