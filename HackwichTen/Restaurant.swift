@@ -28,6 +28,6 @@ class Restaurant: NSObject, MKAnnotation {
     var subtitle: String?
     {
         //Problem Set #3 Code Switch
-        return restaurantTitle
+        return restaurantType
     }
 }
